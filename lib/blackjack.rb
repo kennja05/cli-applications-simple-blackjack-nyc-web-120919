@@ -63,6 +63,6 @@ def runner
   total = initial_round
   #binding.pry 
   hit?(total)
-  
+  display_card_total(total)
 end
     
