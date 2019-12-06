@@ -62,7 +62,7 @@ def runner
   welcome 
   total = initial_round
   binding.pry 
-  hit?(sum)
+  hit?(total)
   display_card_total
 end
     
