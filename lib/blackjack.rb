@@ -64,7 +64,7 @@ def runner
   if total < 21
   
   hit?(total)
-  display_card_total(total)
+  binding.pry 
 else 
 end_game(total)
 end 
