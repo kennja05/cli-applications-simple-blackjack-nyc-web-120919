@@ -35,19 +35,7 @@ def initial_round
   
 end
 
-def hit?(result)
-  prompt_user
-  input = get_user_input
-  #binding.pry 
-  if input == "h"
-    result += deal_card
-  elsif input == "s"
-    result
-  else 
-   invalid_command
-   prompt_user
-  end     
-end
+
 
 def invalid_command
   puts "Please enter a valid command"
