@@ -66,8 +66,8 @@ def runner
   total = hit?(total)
   display_card_total(total)
   #binding.pry 
-  else 
-end_game(total)
-end 
+  
+end
+eng_game(total)
 end
     
