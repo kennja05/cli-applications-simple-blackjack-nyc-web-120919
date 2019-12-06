@@ -38,7 +38,6 @@ end
 def hit?(card_total)
   prompt_user 
   input = get_user_input 
-  #set a variable to use for your if/else statement
   if input == "h"
     card_total += deal_card 
   elsif input == "s"
