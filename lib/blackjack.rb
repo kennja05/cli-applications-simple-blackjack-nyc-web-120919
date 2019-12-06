@@ -44,8 +44,8 @@ def hit?(result)
   elsif input == "s"
     result
   else 
-    pp invalid_command
-    pp prompt_user
+   invalid_command
+   prompt_user
   end     
 end
 
