@@ -68,6 +68,6 @@ def runner
   #binding.pry 
   
 end
-eng_game(total)
+end_game(total)
 end
     
