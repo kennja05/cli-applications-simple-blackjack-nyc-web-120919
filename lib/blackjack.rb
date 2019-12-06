@@ -65,7 +65,7 @@ def runner
   
   hit?(total)
   binding.pry 
-else 
+  else 
 end_game(total)
 end 
 end
